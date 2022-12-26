@@ -1,0 +1,56 @@
+.filme-salvo {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.filme-salvo h1 {
+    margin-bottom: 14px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+
+.filme-salvo span {
+    font-size: 18px;
+}
+
+.filme-salvo ul {
+    width: 720px;
+    
+}
+
+.filme-salvo ul li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    padding: 14px;
+    background-color: rgb(4, 165, 165);
+    
+}
+
+.filme-salvo div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filme-salvo div a {
+    text-decoration: none;
+    color: white;
+    margin-right: 14px;
+}
+
+.filme-salvo div button {
+    padding: 7px 20px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
